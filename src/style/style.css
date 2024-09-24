@@ -5,8 +5,13 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #332422;
+}
+
 header{
-    background-color: rgb(134, 36, 36);
+    background-color: #5C332E;
     padding: 10px 0px 0px 0px;
 }
 
@@ -15,7 +20,7 @@ header > div> h1{
 }
 
 nav{
-    background-color: rgb(134, 36, 36);
+    background-color: #5C332E;
     padding: 10px;
 }
 
@@ -30,6 +35,10 @@ nav > a:hover{
     color: black;
     border-radius: 5px;
     padding: 8px;
+}
+
+.gremio{
+    font-size: 2.5em;
 }
 
 .primeiro{
@@ -47,4 +56,30 @@ nav > a:hover{
 .logo{
     max-width: 75px;
     margin: 10px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-image: url(../img/GRÊMIO\ DE\ HITÓRIA\ MILITAR.png);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+main > h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2em;
+    padding: 8px;
+}
+
+.foto{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    border:1.3px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+
 }
