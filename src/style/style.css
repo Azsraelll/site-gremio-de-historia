@@ -6,10 +6,45 @@
 }
 
 header{
-    background-color: brown;
+    background-color: rgb(134, 36, 36);
+    padding: 10px 0px 0px 0px;
+}
+
+header > div> h1{
+    margin: 30px;
+}
+
+nav{
+    background-color: rgb(134, 36, 36);
+    padding: 10px;
+}
+
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.primeiro{
+    margin-left: 45px;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+    border-radius: 10px;
+}
+
+.logo{
+    max-width: 75px;
+    margin: 10px;
 }
