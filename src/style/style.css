@@ -1,3 +1,4 @@
+/* Titulo da página */
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +6,11 @@
 }
 
 header{
-    background-color: brown;
+    background-color: rgb(121, 40, 40);
     max-width: 100vw;
     max-height: 20vh;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 .titulo{
@@ -20,11 +21,12 @@ header{
     background-color: wheat;
     max-width: 80vw;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
 }
 
 .logo{
-    max-width: 80px;
-    max-height: 80px;
+    width: 80px;
+    height: 70px;
 }
 
 .logo1{
@@ -32,5 +34,107 @@ header{
 }
 
 .logo2{
-    max-width: 50px;
+    width: 50px;
+    height: 62px;
+    padding-top: 7px;
+}
+
+menu{
+    background-color: rgb(133, 61, 61);
+    display: none;
+}
+
+menu ul{
+    list-style-type: none;
+}
+
+menu ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(71, 21, 21);
+    padding: 10px;
+}
+
+menu ul li a:hover{
+    background-color: rgb(63, 16, 16);
+}
+
+#burguer{
+    display: block;
+    text-align: center;
+    background-color: rgb(63, 16, 16);
+    color: white;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: rgb(63, 16, 16);
+    cursor: pointer;
+}
+
+main{
+    background-image: url(../img/GRÊMIO\ DE\ HITÓRIA\ MILITAR.png);
+}
+
+main h1{
+    font-size: 1.9em;
+    text-align: center;
+    padding: 10px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75vw;
+}
+
+.foto1{
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+
+.legenda{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 5px 10px 15px 10px;
+}
+
+section{
+    display: block;
+    margin: auto;
+    background-color: white;
+    max-width: 85vw;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+
+section h2{
+    padding: 5px 0px 5px 0px;
+    text-decoration: underline;
+}
+
+section div p{
+    margin-bottom: 5px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 5px;
+}
+
+.descricao{
+    padding: 0 10px;
+    font-size: 15px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
