@@ -1,0 +1,35 @@
+/* Responsivo para tablets */
+@media screen and (min-width: 580px) and (max-width: 655px){
+    header h1{
+        font-size: 2.2em;
+    }
+    
+    .imagens{
+        max-width: 450px;
+    }
+
+    .legenda{
+        font-size: 0.8em;
+    }
+
+    section{
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 655px) and (max-width: 1400px){
+    header h1{
+        font-size: 2.2em;
+        padding: 15px;
+    }
+
+    .logo1{
+        max-width: 70px;
+
+    }
+
+    .logo2{
+        max-width: 60px;
+        max-height: 90px;
+    }
+}
