@@ -32,4 +32,43 @@
         max-width: 60px;
         max-height: 90px;
     }
+
+    main{
+        height: 100%;
+    }
+
+    /* menu{
+        display: block;
+    }
+
+    #burguer{
+        display: none;
+    } */
+
+    .imagens{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .foto1{
+        max-width: 350px;
+    }
+
+    .foto2{
+        display: block;
+        text-align: center;
+        max-width: 350px;
+        max-height: 280px;
+    }
+
+    .legenda-foto2{
+        display: block;
+        text-align: center;
+    }
+
+    section{
+        max-width: 750px
+    }
+
 }
