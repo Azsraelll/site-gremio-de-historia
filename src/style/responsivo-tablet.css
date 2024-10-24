@@ -97,6 +97,10 @@
     padding: 20px;
   }
 
+  .titulo{
+    max-width: 75%;
+  }
+
   .logo1 {
     max-width: 80px;
     padding: 5px;
