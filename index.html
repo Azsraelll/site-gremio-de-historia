@@ -26,14 +26,16 @@
       </div>
     </header>
     <i class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</i>
-    <menu id="itens" >
-      <ul>
-        <li><a href="index.html" target="_self" class="primeiro">Início</a></li>
-        <li><a href="#">Acervo Historiográfico</a></li>
-        <li><a href="#">Galeria de Presidentes</a></li>
-        <li><a href="#">(Em Aberto)</a></li>
-      </ul>
-    </menu>
+    <div class="menu">
+      <menu id="itens" >
+        <ul>
+          <li><a href="index.html" target="_self" class="primeiro">Início</a></li>
+          <li><a href="#">Acervo Historiográfico</a></li>
+          <li><a href="#">Galeria de Presidentes</a></li>
+          <li><a href="#">(Em Aberto)</a></li>
+        </ul>
+      </menu>
+    </div>
 
     <main>
       <h1>Grêmio de História Militar da APMBB</h1>
@@ -90,13 +92,14 @@
 
     <footer>Criado por Al Of PM Sardins</footer>
     <script>
+      if(itens.style.display == 'block'){
+              itens.style.display = 'none'
       function clickMenu(){
           if(itens.style.display == 'block'){
               itens.style.display = 'none'
           } else{
               itens.style.display = 'block'
           }   
-
       }
   </script>
   </body>
