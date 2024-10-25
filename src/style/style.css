@@ -74,10 +74,14 @@ menu ul li a:hover{
     cursor: pointer;
 }
 
-main{
+body{
     background-image: url(../img/GRÊMIO\ DE\ HITÓRIA\ MILITAR.png);
     height: 100%;
-    padding-bottom: 40px;
+}
+
+main{
+    height: 100%;
+    
 }
 
 main h1{
